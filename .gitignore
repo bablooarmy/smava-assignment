@@ -1,0 +1,15 @@
+yarn-error.log
+
+node_modules
+npm-debug*
+
+*.js.map
+
+.idea
+app/tests/__tests__/coverage/*
+*__snapshots__
+/cypress/
+
+.DS_Store
+
+build/*
