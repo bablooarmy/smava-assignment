@@ -55,7 +55,7 @@ gulp.task('libs', function() {
 gulp.task('css', function () {
     return gulp.src(config.PATHS.sass_index)
         .pipe(sass().on('error', sass.logError))
-        .pipe(rename({suffix: '.min'}))
+        .pipe(rename(config.PATHS.styles))
         .pipe(gulp.dest(config.PATHS.build))
         .pipe(postcss([autoprefixer]))
         .pipe(gulp.dest(config.PATHS.build))

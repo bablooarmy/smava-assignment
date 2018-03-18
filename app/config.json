@@ -15,7 +15,7 @@
     "sass": ["./app/styles/*.scss", "./app/styles/**/*.scss", "./app/styles/**/**/*.scss"],
     "build": "./build",
     "vendor": "./app/vendor",
-    "styles": "./build/bootstrap.css",
+    "styles": "styles.min.css",
     "external": ["./app/helpers/appGlobal.js", "./app/helpers/domReady.js"]
   }
 }

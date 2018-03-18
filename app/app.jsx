@@ -23,9 +23,7 @@ let locale = _find(['en', 'es', 'fr'], (locale) => {
     return app.locale.indexOf(locale) !== -1;
 });
 
-/* staging-code */
-window.store = store;
-/* end-staging-code */
+
 
 ReactDom.render(
     <Provider store={store}>
