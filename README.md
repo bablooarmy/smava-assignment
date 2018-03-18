@@ -13,7 +13,7 @@
 2. launch 'app\tests\__tests__\coverage\lcov-report\index.html' in browser to see code coverage
 
 #To generate prod build follow these steps
-npm run prod will generate production 'build' folder which has
+1. npm run prod will generate production 'build' folder which has
     1. index-{hashcode for cache busting}.js minified application code
     2. libs-{hashcode for cache busting}.js minified vendor code
     3. styles-{hashcode for cache busting}.min.css minified css
